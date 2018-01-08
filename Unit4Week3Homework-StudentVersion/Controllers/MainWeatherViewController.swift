@@ -26,6 +26,8 @@ class MainWeatherViewController: UIViewController {
         mwv.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         mwv.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
         // Do any additional setup after loading the view.
+        
+        navigationItem.title = "Search"
     }
 
     override func didReceiveMemoryWarning() {

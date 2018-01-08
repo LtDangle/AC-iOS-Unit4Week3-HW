@@ -1,0 +1,7 @@
+
+private func setupBlurEffectView() {
+    let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.dark) // .light, .dark, .prominent, .regular, .extraLight
+    let visualEffect = UIVisualEffectView(frame: UIScreen.main.bounds)
+    visualEffect.effect = blurEffect
+    addSubview(visualEffect)
+}

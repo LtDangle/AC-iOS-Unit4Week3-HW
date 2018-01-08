@@ -1,5 +1,5 @@
 //
-//  Forecast.swift
+//  WeatherAPIClient.swift
 //  Unit4Week3Homework-StudentVersion
 //
 //  Created by C4Q on 1/6/18.
@@ -8,9 +8,9 @@
 
 import Foundation
 
-struct Forecast: Codable {
-    let validTime: String
-    let maxTempF: Int
-    let minTempF: Int
-    let icon: String
+struct WeatherAPIClient {
+    private init() {}
+    static let manager = WeatherAPIClient()
+    
+    
 }
